@@ -1,0 +1,118 @@
+/* General styles for the body and overall layout */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Styling for the main task manager container */
+  #task-manager {
+    width: 80%;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the task input field */
+  #task-input {
+    width: 93%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Styling for the "Add Task" button */
+  #add-task {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  #add-task:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for the task list */
+  #task-list {
+    margin-top: 20px;
+  }
+  
+  /* Styling for individual tasks */
+  #task-list li {
+    list-style: none;
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #task-list li.completed {
+    text-decoration: line-through;
+    color: black;
+  }
+  
+  /* Styling for task buttons */
+  #task-list button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #task-list button:hover {
+    filter: brightness(0.9);
+  }
+  
+  
+
+
+ /* Specific styles for each button type */
+ .delete {
+  background-color: rgb(223, 220, 54);
+  color: #181717;
+} 
+
+#task-list button:nth-child(2) {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+#task-list button:nth-child(3) {
+  background-color: red;
+  color: #fff;
+}
+
+ 
+  
+  
+  
+  .edit:hover {
+    cursor: pointer;
+  }
+  
+  .delete:hover {
+    cursor: pointer;
+  }
+  
